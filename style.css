@@ -52,12 +52,31 @@ font-style: normal;
     margin: 0;
   }
 
-  @media (min-width:995px) and (max-width: 764448px){
-    .nav {
-        list-style-type: none;
-        padding-left: 250px;
-        margin: 0;
-      }
+
+@media  (min-width:1169px) and (max-width: 1275px){
+  .nav {
+      list-style-type: none;
+      padding-left: 100px;
+      margin: 0;
+      transition: smooth;
+
+    }
+}
+@media  (min-width:1275px) and (max-width: 1750px){
+  .nav {
+      list-style-type: none;
+      padding-left: 250px;
+      margin: 0;
+      transition: smooth;
+    }
+}
+@media  (min-width:1751px) and (max-width: 175000px){
+  .nav {
+      list-style-type: none;
+      padding-left: 350px;
+      margin: 0;
+      transition: smooth;
+    }
 }
 
   .nav li {
@@ -66,7 +85,7 @@ font-style: normal;
 
   .nav li a {
     display: block;
-    padding: 10px 15px;
+    padding: 20px 15px;
     color: #fff;
     text-decoration: none;
   }
@@ -82,6 +101,7 @@ font-style: normal;
 
 /* slider */
 .slider{
+
     width: 1300px;
     max-width: 100vw;
     height: 500px;

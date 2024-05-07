@@ -53,15 +53,16 @@ font-size: 30px;
   }
 
   .nav {
-    list-style-type: none;
+    /* list-style-type: none; */
     padding: auto;
     margin: 0;
+    color: white;
   }
 
 
 @media  (min-width:1169px) and (max-width: 1275px){
   .nav {
-      list-style-type: none;
+      /* list-style-type: none; */
       padding-left: 100px;
       margin: 0;
       transition: smooth;
@@ -70,7 +71,7 @@ font-size: 30px;
 }
 @media  (min-width:1275px) and (max-width: 1750px){
   .nav {
-      list-style-type: none;
+      /* list-style-type: none; */
       padding-left: 250px;
       margin: 0;
       transition: smooth;
@@ -78,7 +79,7 @@ font-size: 30px;
 }
 @media  (min-width:1751px) and (max-width: 175000px){
   .nav {
-      list-style-type: none;
+      /* list-style-type: none; */
       padding-left: 350px;
       margin: 0;
       transition: smooth;
@@ -96,13 +97,12 @@ font-size: 30px;
     text-decoration: none;
   }
 
-  .nav li a:hover {
-    background-color: #555;
-    color: black;
-/* color: #9d028d; */
+  .nav li a:hover ,.nav li a#active{
 
+    text-decoration: underline yellow;
     
   }
+
 
 
 

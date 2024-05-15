@@ -84,7 +84,7 @@ font-size: 30px;
   float: right 200px;
  padding-top: 17px;
   padding-right: 30px; 
-  padding-left: 1220px;
+  padding-left: 1285px;
 }
 
 .dropdown .dropbtn {
@@ -206,7 +206,7 @@ font-size: 30px;
 
   width: 1130px;
   max-width: 100vw;
-  height:400px;
+  height:500px;
   margin: auto;
   position: relative;
   overflow: hidden;

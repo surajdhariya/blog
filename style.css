@@ -30,7 +30,7 @@ img{
 }
 
 section{
-  padding: 3rem 0 2rem;
+  padding: 0 2rem;
 }
 
 
@@ -163,6 +163,7 @@ font-size: 30px;
   gap: 1.5rem;
   margin-left: 100px;
   margin-right: 100px;
+  padding-top: 10PX;
 }
 
 .post-box {

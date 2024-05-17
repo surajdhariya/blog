@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   box-sizing: border-box;
+
  
 }
 
@@ -40,6 +41,8 @@ section{
 body{
 margin: 0;
 background-color: black;
+font-family: "Ubuntu Sans", sans-serif;
+
 }
 
 *{
@@ -500,11 +503,14 @@ margin-right: 120px;
   background-color: black;
   padding: 50px 0;
   color: white;
+  width: 50%;
+  margin-left: 25%;
 }
 
 .site-footer h3 {
-  font-size: 20px;
-  color: #313030;
+  font-size: 30px;
+  color: red;
+  
 }
 
 .site-footer p {

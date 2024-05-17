@@ -41,7 +41,8 @@ body{
 margin: 0;
 background-color: #e0c1fa;
 background-color: ;
-font-family: "Ubuntu Sans", sans-serif;
+font-family: 'Lato Regular', sans-serif;
+
 /* background-color: #deb7ff; */
 
 }
@@ -58,9 +59,12 @@ font-family: "Ubuntu Sans", sans-serif;
  
 }
 ::-webkit-scrollbar-thumb{
-   background:#9d028d ;
+   /* background:#9d028d ; */
+   background: black;
    cursor:pointer;
     color: red;
+    border-radius: 15px;
+
 }
 
 
@@ -220,6 +224,7 @@ margin-right: 120px;
 .dropdown-content a:hover {
   background-color:#9d028d;
   color: white;
+  border-radius: 5px;
 }
 
 .content {
@@ -264,15 +269,14 @@ margin-right: 120px;
 /* navbar */
 .nvbar {
     overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent line breaks */
-    /* background-color: black; */
-    font-family: "Ubuntu Sans", sans-serif;
+    white-space: nowrap; 
+    font-family: 'Lato Regular', sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "wdth" 100; */
   /* font-size: 25px; */
-  
+  font-size: 20px;
   }
 
   .nvbar-inner {
@@ -299,7 +303,7 @@ margin-right: 120px;
 @media  (min-width:1275px) and (max-width: 1750px){
   .nv {
       /* list-style-type: none; */
-      padding-left: 250px;
+      padding-left: 200px;
       /* margin: 0; */
       transition: smooth;
     }
@@ -327,8 +331,9 @@ margin-right: 120px;
   .nv li a:hover {
 
     /* text-decoration: underline 0.1px  white; */
-    transition: 0.2s;
-    color:#9d028d ;
+    transition: 0.7s ;
+    color: black ;
+  font-size: 23px;
     
   }
 

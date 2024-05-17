@@ -170,6 +170,8 @@ margin-right: 120px;
     font-size: 16px;
     
   }
+
+
 }
 .dropdown .dropbtn {
   list-style: none;
@@ -506,7 +508,16 @@ margin-right: 120px;
   width: 50%;
   margin-left: 25%;
 }
-
+@media screen and (max-width: 768px){
+ 
+.site-footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  /* width: 0%; */
+  /* margin-left: 25%; */
+}
+}
 .site-footer h3 {
   font-size: 30px;
   color: red;
@@ -541,7 +552,7 @@ margin-right: 120px;
   width: calc(100% - 110px);
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px ;
   margin-right: -5px;
 }
 
@@ -553,6 +564,7 @@ margin-right: 120px;
   border-radius: 0 5px 5px 0;
   color: #fff;
   cursor: pointer;
+  padding-left: 0px;
 }
 
 .social-icons {

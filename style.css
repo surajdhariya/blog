@@ -319,6 +319,7 @@ margin-right: 120px;
   .nav li a:hover ,.nav li a#active{
 
     text-decoration: underline #9d028d 3px;
+    transition: 0.4s;
     
   }
 

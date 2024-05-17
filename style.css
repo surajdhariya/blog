@@ -78,7 +78,10 @@ font-size: 30px;
 flex: 1; /* Flex property to take up remaining space */
 text-align: center;
 
+}
 
+.heading  :hover{
+  color: #9d029d;
 
 }
 @media screen and (max-width: 768px){
@@ -122,6 +125,7 @@ margin-left:600px;
   justify-content: center; /* or flex-start, if you want the items aligned to the left */
   /* padding: 10px; */
   height: 100px;
+
 }
  /* dropdown */
     
@@ -319,7 +323,7 @@ margin-right: 120px;
   .nav li a:hover {
 
     text-decoration: underline 0.1px  white;
-    transition: 0.4s;
+    transition: 0.2s;
     color:#9d028d ;
     
   }

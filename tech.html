@@ -43,91 +43,10 @@
             padding: 0 2rem;
         }
 
-        .header-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px;
-            background-color: black;
-            color: white;
-        }
-
-        .heading {
-            text-align: center;
-            margin: 50px;
-            font-family: 'Jaro', sans-serif;
-            font-size: 30px;
-            color: #9d028d;
-        }
-
-        .heading h1 {
-            margin: 0;
-        }
-
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        .dropdown .dropbtn {
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #3f3a3a;
-            min-width: 160px;
-            z-index: 1;
-            border-radius: 4px;
-        }
-
-        .dropdown-content a {
-            color: white;
-            padding: 12px 16px;
-            display: block;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-
-        .navbar {
-            background-color: black;
-            overflow-x: auto;
-            white-space: nowrap;
-        }
-
-        .navbar-inner {
-            max-width: 100%;
-        }
-
-        .nav {
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-
-        .nav li {
-            display: inline-block;
-        }
-
-        .nav li a {
-            display: block;
-            padding: 20px 15px;
-            color: white;
-        }
-
-        .nav li a:hover,
-        .nav li a#active {
-            text-decoration: underline #9d028d 3px;
-        }
 
         .post {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 50%));
             justify-content: center;
             gap: 1.5rem;
             margin: 20px;
@@ -141,8 +60,10 @@
         }
 
         .post-box img {
-            width: 100%;
+            width: 100px;
+            height: 100px;
             border-radius: 8px 8px 0 0;
+            /* align-items: center; */
         }
 
         .post-box h2 {
@@ -180,102 +101,12 @@
             color: var(--text-color);
         }
 
-        .site-footer {
-            background-color: var(--container-color);
-            color: white;
-            padding: 40px 0;
-        }
-
-        .site-footer h3 {
-            color: var(--second-color);
-            margin-bottom: 15px;
-        }
-
-        .site-footer p,
-        .site-footer a {
-            color: white;
-            font-size: 0.9rem;
-        }
-
-        .contact-info {
-            list-style: none;
-            padding: 0;
-        }
-
-        .contact-info li {
-            margin-bottom: 10px;
-        }
-
-        .contact-info li .fa {
-            margin-right: 10px;
-        }
-
-        .newsletter-form input[type="email"] {
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            margin-right: 10px;
-            width: calc(100% - 120px);
-        }
-
-        .newsletter-form button {
-            padding: 10px 20px;
-            background-color: var(--second-color);
-            border: none;
-            border-radius: 4px;
-            color: white;
-            cursor: pointer;
-        }
-
-        .social-icons {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .social-icons li a img {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-        }
+        
     </style>
 </head>
 
 <body>
-    <div class="header-container">
-        <div class="heading">
-            <h1>Levaze Blogs</h1>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn"><img src="img/main-menu.png" width="30px" height="30px" alt="Menu"></button>
-            <div class="dropdown-content">
-                <a href="index.html">Home</a>
-                <a href="#">About</a>
-                <a href="#">Help</a>
-                <a href="#">Contact</a>
-                <a href="#">Login</a>
-            </div>
-        </div>
-    </div>
-    <div class="navbar">
-        <div class="navbar-inner">
-            <ul class="nav">
-                <li><a href="index.html" id="active">Home</a></li>
-                <li><a href="navbarLayout.html">Technology</a></li>
-                <li><a href="#">Finance</a></li>
-                <li><a href="#">Share market</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Coding</a></li>
-                <li><a href="#">Politics</a></li>
-                <li><a href="#">Companies</a></li>
-                <li><a href="#">AutoMobile</a></li>
-                <li><a href="#">Gold</a></li>
-            </ul>
-        </div>
-    </div>
-    <br>
+
     <section class="post container">
         <div class="post-box">
             <img src="img/stock-1863880_1280.jpg" alt="Finance" class="post-img" />
@@ -284,7 +115,7 @@
             <span class="post-date">7 May 2022</span>
             <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
             <div class="profile">
-                <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img">
+                <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
                 <span class="profile-name">Marie Wiece </span>
             </div>
         </div>
@@ -298,70 +129,13 @@
             <span class="post-date">7 May 2022</span>
             <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
             <div class="profile">
-                <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img">
+                <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
                 <span class="profile-name">Marie Wiece </span>
             </div>
         </div>
         <!-- Additional Post Boxes (2-9) -->
     </section>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <section class="widget widget_contact">
-                        <h3>Contact Us</h3>
-                        <p>We value your feedback. Feel free to get in touch with us for any inquiries, suggestions, or just to say hello!</p>
-                        <ul class="contact-info">
-                            <li><span class="fa fa-envelope"></span> <a href="mailto:contact@example.com">contact@example.com</a></li>
-                            <li><span class="fa fa-phone"></span> +91 123-456-7890</li>
-                            <li><span class="fa fa-map-marker"></span> 123 Street Name, City, Country</li>
-                        </ul>
-                    </section>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <section class="widget widget_newsletter">
-                        <h3>Subscribe to Our Newsletter</h3>
-                        <p>Stay updated with the latest posts, news, and special offers by subscribing to our newsletter.</p>
-                        <form action="#" method="post" class="newsletter-form">
-                            <input type="email" name="email" placeholder="Enter your email">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </section>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <ul class="social-icons">
-                            <li><a href="#"><img src="img/facebook-icon.png" alt="Facebook"></a></li>
-                            <li><a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a></li>
-                            <li><a href="#"><img src="img/instagram-icon.png" alt="Instagram"></a></li>
-                            <li><a href="#"><img src="img/linkedin-icon.png" alt="LinkedIn"></a></li>
-                        </ul>
-                        <p>&copy; 2024 Levaze Blogs. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const dropdown = document.querySelector(".dropdown");
-            const dropbtn = document.querySelector(".dropbtn");
-
-            dropbtn.addEventListener("click", () => {
-                dropdown.classList.toggle("active");
-            });
-
-            document.addEventListener("click", (event) => {
-                if (!dropdown.contains(event.target)) {
-                    dropdown.classList.remove("active");
-                }
-            });
-        });
-    </script>
+   
 </body>
 
 </html>

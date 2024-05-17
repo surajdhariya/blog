@@ -438,9 +438,10 @@ margin-right: 120px;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   justify-content: center;
   gap: 1.5rem;
-  margin-left: 200px;
-  margin-right: 100px;
+  /* margin-left: 200px;
+  margin-right: 100px; */
   padding-top: 10PX;
+  margin: auto;
 }
 
 .post-box {

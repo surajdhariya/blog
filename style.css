@@ -76,7 +76,39 @@ flex: 1; /* Flex property to take up remaining space */
 text-align: center;
 
 
+
 }
+@media screen and (max-width: 768px){
+  .heading{
+    text-align: center;
+  margin:50px;
+    background-color: gray;
+font-family: "Jaro", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+color: #9d028d;
+background-color: black;
+font-size: 30px;
+flex: 1; /* Flex property to take up remaining space */
+text-align: center;
+margin-left:600px;
+
+
+
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* or flex-start, if you want the items aligned to the left */
+  /* padding: 10px; */
+  height: 150px;
+  margin-top: 30px;
+}
+
+
+}
+
 .heading h1 {
   margin: 0;
   padding-left: 150px;
@@ -85,37 +117,71 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center; /* or flex-start, if you want the items aligned to the left */
-  padding: 10px;
+  /* padding: 10px; */
+  height: 100px;
 }
  /* dropdown */
-                 
+    
+
  .dropdown {
   font-family: "Ubuntu Sans", sans-serif;
 background-color: black;
   position: relative;
   float: right 200px;
- padding-top: 0px;
-  padding-right: 111px; 
-  padding-left: 120px;
+ /* padding-top: 0px; */
+  /* padding-right: 111px;  */
+  /* padding-left: 120px; */
 color: black;
   position: relative;
   display: inline-block;
-
- 
+margin-right: 120px;
+  border: 1px solid white;
 }
 
+@media screen and (max-width: 768px){
+                  
+  .dropdown {
+    font-family: "Ubuntu Sans", sans-serif;
+  background-color: black;
+    position: relative;
+    /* float: right 200px; */
+   /* padding-top: 10px; */
+    padding-right: 11px; 
+    padding-left: 11px;
+  color: white;
+    position: relative;
+    display: inline-block;
+  margin-left: 200px;
+   border: 1px solid white;
+   margin-right: 650px;
+   width: 50px;
+   margin-left: 200px;
+  }
+  .dropdown .dropbtn {
+    list-style: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* padding: 11px 11px; */
+    font-size: 16px;
+    
+  }
+}
 .dropdown .dropbtn {
   list-style: none;
   background-color: transparent;
-  color: black;
+  color: white;
   border: none;
   cursor: pointer;
-  padding: 10px 10px;
+  padding: 11px 11px;
   font-size: 16px;
+  /* margin-right: 600px; */
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  padding-right: 2px;
   
 }
 
@@ -127,6 +193,7 @@ color: black;
   min-width: 40px;
   z-index: 1;
  border-radius: 4px;
+ padding-right: 2px;
 }
 
 .dropdown-content a {
@@ -150,12 +217,7 @@ color: black;
 /* end dropdown code */
 
 
-.header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* or flex-start, if you want the items aligned to the left */
-    padding: 10px;
-}
+
 
 /* Dropdown styles */
 .dropdown {

@@ -211,7 +211,7 @@ margin-right: 120px;
 }
 
 .dropdown-content a:hover {
-  background-color: #444;
+  background-color:#9d028d;
   color: white;
 }
 
@@ -316,10 +316,11 @@ margin-right: 120px;
     text-decoration: none;
   }
 
-  .nav li a:hover ,.nav li a#active{
+  .nav li a:hover {
 
-    text-decoration: underline #9d028d 3px;
+    text-decoration: underline 0.1px  white;
     transition: 0.4s;
+    color:#9d028d ;
     
   }
 
@@ -521,7 +522,7 @@ margin-right: 120px;
 }
 .site-footer h3 {
   font-size: 30px;
-  color: red;
+  color: #9d028d;
   
 }
 

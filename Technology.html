@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+    
     <title>Document</title>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+
+
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
 
-<style>
-     .post {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1255px));
-            justify-content: center;
-            gap: 1.5rem;
-            margin: 20px;
-        }
-</style>
 </head>
 <body>
-
-
-
-<div class="header-container">
+  <div class="header-container">
     <!-- heading -->
     <div class="heading">
-        <h1>Levaze Blogs</h1>
+        <h1 style="height: 50px;font-size: 50px;">Levaze Blogs</h1>
     </div>
     <!-- dropdown -->
     <div class="dropdown">
@@ -40,12 +37,11 @@
     </div>
 </div>
 
-
-    <div class="navbar">
-        <div class="navbar-inner">
-          <ul class="nav">
+    <div class="nvbar">
+        <div class="nvbar-inner">
+          <ul class="nv">
             <li><a href="index.html" id="active">Home</a></li>
-            <li><a href="Technology.html" >Technology</a></li>
+            <li><a href="Technology.html" id="active1">Technology</a></li>
             <li><a href="Finance.html">Finance</a></li>
             <li><a href="ShareMarket.html">Share market</a></li>
             <li><a href="News.html">News</a></li>
@@ -67,10 +63,13 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="https://img.freepik.com/free-photo/grunge-halloween-landscape-with-spooky-skeleton-against-moonlit-sky_1048-14646.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714780800&semt=ais" alt="">
+                <img src="https://img.freepik.com/free-photo/grunge-halloween-landscape-with-spooky-skeleton-against-moonlit-sky_1048-14646.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714780800&semt=ais" alt=""
+                >
+                <p class="text1">TOP 10 BEST SUSPENCE TRILLER MOVIES</p>
             </div>
             <div class="item">
             <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg" alt="">
+            <p class="text2"> 5 A.I TOOLS WHICH MAKES YOUR LIFE EASY</p>
             </div>
             <div class="item">
                 <img src="https://blog.cambridgeinternational.org/wp-content/uploads/Exam-tips_resized-1-700x300-1.jpg" alt="">
@@ -87,7 +86,7 @@
             <button id="next">></button>
         </div>
         <ul class="dots">
-            <li class="active"></li>
+            <li class="active">TOP 10 BEST SUSPENCE TRILLER MOVIES</li>
             <li></li>
             <li></li>
             <li></li>
@@ -96,69 +95,304 @@
     </div>
 </section> -->
 
-<!-- Technology Layout--------------------------------- -->
-<section class="post container">
-  <div class="post-box">
-      <img src="img/iphone.jpg" alt="Finance" class="post-img" />
-      <h2 class="category">Finance</h2>
-      <a href="post-page.html" class="post-title">How to do fundamental analysis according to trends</a>
-      <span class="post-date">7 May 2022</span>
-      <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
-      <div class="profile">
-          <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
-          <span class="profile-name">Marie Wiece </span>
-      </div>
-  </div>
-  <!-- Additional Post Boxes (2-9) -->
-</section>
- <section class="post container">
-  <div class="post-box">
-      <img src="img/iphone.jpg" alt="Finance" class="post-img" />
-      <h2 class="category">Finance</h2>
-      <a href="post-page.html" class="post-title">How to do fundamental analysis according to trends</a>
-      <span class="post-date">7 May 2022</span>
-      <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
-      <div class="profile">
-          <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
-          <span class="profile-name">Marie Wiece </span>
-      </div>
 
+<!-- suraj slider -->
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://img.freepik.com/free-photo/grunge-halloween-landscape-with-spooky-skeleton-against-moonlit-sky_1048-14646.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714780800&semt=ais"  height="500px" width="10px" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TOP 10 MUST WATCH SUSPENCE TRILLAR MOVIES</h5>
+        <p>...</p>
+      </div>
       
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Types_of_Artificial_Intelligence.jpg"  height="500px"   width: 10%; alt="Second slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>5 A.i TOOLS WHICH MAKES YOUR LIFE EASY</h5>
+        <p>...</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://blog.cambridgeinternational.org/wp-content/uploads/Exam-tips_resized-1-700x300-1.jpg"  height="500px" alt="Third slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>TIPS FOR EXAM</h5>
+        <p>...</p>
+      </div>
+    </div>
   </div>
-  <!-- Additional Post Boxes (2-9) -->
-</section>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
+
+
+<!--------------------------------Layout (Mayank) ----------------------------------->
 <section class="post container">
+    <!-- Box 1 -->
     <div class="post-box">
-        <img src="img/iphone.jpg" alt="Finance" class="post-img" />
-        <h2 class="category">Finance</h2>
-        <a href="post-page.html" class="post-title">How to do fundamental analysis according to trends</a>
-        <span class="post-date">7 May 2022</span>
-        <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
-        <div class="profile">
-            <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
-            <span class="profile-name">Marie Wiece </span>
-        </div>
-  
-        
+      <img src="img/stock-1863880_1280.jpg" alt="" class="post-img" />
+      <h2 class="category">Finance</h2>
+      <a href="post-page.html" class="post-title">
+        How to do fundamental analysis according to trends
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/stock-1863880_1280.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
     </div>
-    <!-- Additional Post Boxes (2-9) -->
-  </section>
-  <section class="post container">
+
+    <!-- Box 2 -->
     <div class="post-box">
-        <img src="img/iphone.jpg" alt="Finance" class="post-img" />
-        <h2 class="category">Finance</h2>
-        <a href="post-page.html" class="post-title">How to do fundamental analysis according to trends</a>
-        <span class="post-date">7 May 2022</span>
-        <p class="post-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit aspernatur velit recusandae eveniet architecto fuga, vel in dolorum ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero. Incidunt, consequatur sint.</p>
-        <div class="profile">
-            <!-- <img src="img/stock-1863880_1280.jpg" alt="Marie Wiece" class="profile-img"> -->
-            <span class="profile-name">Marie Wiece </span>
-        </div>
-  
-        
+      <img src="img/iphone.jpg" alt="" class="post-img" />
+      <h2 class="category">Tech</h2>
+      <a href="post-page.html" class="post-title">
+        How to use iPhone 15 in a better way
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
     </div>
-    <!-- Additional Post Boxes (2-9) -->
+
+    <!-- Box 3 -->
+    <div class="post-box">
+      <img src="img/running.jpg" alt="" class="post-img" />
+      <h2 class="category">Health</h2>
+      <a href="post-page.html" class="post-title">
+        Benefits of running in the morning for health
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="post-box">
+      <img src="img/stock-1863880_1280.jpg" alt="" class="post-img" />
+      <h2 class="category">Politics</h2>
+      <a href="post-page.html" class="post-title">
+        Why American Politics is getting chaotic and corrupt
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/blur-1853262_1280.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 5 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Psychology</h2>
+      <a href="post-page.html" class="post-title">
+        Listening to Classical music is much better than party songs- Research
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 6 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Social</h2>
+      <a href="post-page.html" class="post-title">
+        Why Indian parents are so strict regarding the lifestyle
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 7 -->
+    <div class="post-box">
+      <img src="img/stock-1863880_1280.jpg" alt="" class="post-img" />
+      <h2 class="category">Tech</h2>
+      <a href="post-page.html" class="post-title">
+        How Elon Musk's Neuralink will change the world, either positively or negatively
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/blur-1853262_1280.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 8 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Arts</h2>
+      <a href="post-page.html" class="post-title">
+        Why Leonardo Da Vinci is considered a great artist
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 9 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Sports</h2>
+      <a href="post-page.html" class="post-title">
+        Why Virat Kohli get constant criticism over everything despite his efforts
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+    <!-- Box 10 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Sports</h2>
+      <a href="post-page.html" class="post-title">
+        Why Virat Kohli get constant criticism over everything despite his efforts
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+
+    <!-- Box 11 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Sports</h2>
+      <a href="post-page.html" class="post-title">
+        Why Virat Kohli get constant criticism over everything despite his efforts
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+    <!-- Box 12 -->
+    <div class="post-box">
+      <img src="img/photo_2024-05-06_21-21-55.jpg" alt="" class="post-img" />
+      <h2 class="category">Sports</h2>
+      <a href="post-page.html" class="post-title">
+        Why Virat Kohli get constant criticism over everything despite his efforts
+      </a>
+      <span class="post-date">7 May 2022</span>
+      <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit
+        aspernatur velit recusandae eveniet architecto fuga, vel in dolorum
+        ipsum! Ab odio, eum cupiditate asperiores necessitatibus libero.
+        Incidunt, consequatur sint.
+      </p>
+      <!-- profile -->
+      <div class="profile">
+        <img src="img/photo_2024-05-06_21-22-09.jpg" alt="" class="profile-img">
+        <span class="profile-name">Marie Wiece </span>
+      </div>
+    </div>
+  
   </section>
+
+  <!-- ----------------------------End of Layout--------------------------------- -->
 
 <!-- footer -->
 

@@ -325,23 +325,30 @@ margin-right: 120px;
   .nv li a {
     display: block;
     padding: 20px 15px;
-    color: #9d028d;
+    /* color: #9d028d; */
+    color: black;
     text-decoration: none;
   }
+  .nv li a#active{
+    color: #9d028d;
+    text-decoration: underline 0.5px  #9d028d;
 
+  }
   .nv li a:hover {
 
     /* text-decoration: underline 0.1px  white; */
     transition: 0.7s ;
-    color: black ;
-  font-size: 30px;
+    color: #9d028d;
+  font-size: 28px;
     
   }
+ 
+
 
 
 /* slider */
 .carousel-caption{
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* <!-- --------------------End of Navbar and trending section code------------------------  */
